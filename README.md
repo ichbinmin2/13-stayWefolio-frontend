@@ -1,22 +1,37 @@
-# stayWefolio
-![staywefolio_logo (1)](https://user-images.githubusercontent.com/66218824/97653516-4fc1ed00-1aa4-11eb-9566-2defcbfa8405.png)
-- 팀명 : stayWefolio
-- 팀원 : 신은선(Product Manager), 김지훈, 민지연, 김보라, 서수연
+# 13-stayWefolio
 
 ## 프로젝트 소개
- 숙박 예약 사이트인 stayfolio의 주요 기능을 구현하였습니다. 
+> 숙박업소를 큐레이팅하고 예약할 수 있는 사이트인 stayfolio의 주요 기능을 구현하였습니다. 
+</br>
  
-### 주요기능 
-- slick slider 라이브러리를 이용한 슬라이더 기능
-- 동적 라우팅을 이용한 페이지 이동 기능
-- 로그인/회원가입 기능
-- 달력 기능 
-- 예약 사항에 따른 금액 계산 기능
-- 예약 및 예약 확인 기능
-- google map API를 이용한 지도 기능
+## 프로젝트 참가자(Front + Back)
+
+### FrontEnd
++ 신은선(Product Manager) / 민지연 / 김보라 / 서수연
+
+### BackEnd
++ 김지훈
+
+</br>
+
+## 프로젝트 기간 
+**20.10.19 ~ 20.10.30** 약 2주간 진행
+
+</br>
+
+## 팀 Repo 링크 가기
+["stayWefolio" Repo 바로가기](https://github.com/wecode-bootcamp-korea/13-stayWefolio-frontend)
+
+</br>
+
+## 프로젝트 영상
+[영상 보러가기](https://youtu.be/qz6dKgsI0Ds)
+![staywefolioscreenshot](https://user-images.githubusercontent.com/66218824/97659783-34121300-1ab3-11eb-9c92-80319daab3cf.png)
+
+</br>
 
 ## 기술스택
-### front-end
+### FrontEnd
 - React
 - Javascript
 - HTML, SASS
@@ -24,10 +39,9 @@
 - git
 - prettier
 - ESLint
-- trello
-![staywefoliotrello](https://user-images.githubusercontent.com/66218824/97659837-56a42c00-1ab3-11eb-9580-b9c7a41123ca.png)
 
-### back-end
+
+### BackEnd
 - Python
 - Django
 - MySQL
@@ -40,86 +54,87 @@
 - google-map-react
 - font-awesome
 
-## 영상
-- 메인 화면
-![staywefolioscreenshot](https://user-images.githubusercontent.com/66218824/97659783-34121300-1ab3-11eb-9c92-80319daab3cf.png)
-- 유튜브
- : https://youtu.be/qz6dKgsI0Ds
+### 협업 도구
++ Slack
++ Git + GitHub 
++ Trello 를 이용한 일정관리 및 작업 현황 확인
+![staywefoliotrello](https://user-images.githubusercontent.com/66218824/97659837-56a42c00-1ab3-11eb-9580-b9c7a41123ca.png)
++ Postman (API 관리)
 
-## 멤버소개
+</br>
 
-1. 신은선
-- Role : Team Leader
-- Position : Front-end
-- Stack : React / Java Script / Sass / Router 
-- Works : 
- 1) 라이브러리와 CSS를 이용한 디자인 구현
- 2) component 구현과 관련 AP! 연결
- - 상품리스트 나열 페이지 및 예약 페이지 구현
- - 상품리스트 페이지 - 상품 정보 나열
- - 검색 필터 기능 - 조건 선택에 따른 필터링 기능
- - pagination - query string을 이용한 paging 기능
- - 달력 라이브러리를 이용한 날짜 계산 및 금액 산출 기능
- - 유동라우터를 이용한 화면 전환 기능
- ---
-2. 김보라
-- Role : Team Member
-- Position : Front-end
-- Stack : React
-- Works :
-1) 라이브러리와 css를 이용한 디자인 구현
-2) 메인 페이지, booking detail 페이지, 예약 확인 페이지 컴포넌트화 및 API 연결
-3) Main page
- -  메인 상단 배너 - slick slider 사용하여 배너 이미지 자동 슬라이드 구현
-4) Booking Detail
- - slick slider 사용하여 각 방 정보 슬라이딩 기능 구현
- - Google map react API 사용하여 호텔 위치 보여주는 지도 구현
-5) 예약 상세 페이지
- - 예약이 완료되면 해당 정보가 담긴 API를 받아와 화면에 띄워주는 예약 확인 페이지 구현
-6) 네비게이션바 로그인/로그아웃
- - 로컬 스토리지에 저장된 토큰의 유무에 따라 로그인/로그아웃 시 네비게이션 바 문구 변경 기능 구현
- ---
-3. 민지연
+## 주요 기능 소개
+
+- slick slider 라이브러리를 이용한 슬라이더 기능
+- 동적 라우팅을 이용한 페이지 이동 기능
+- 로그인/회원가입 기능
+- 달력 기능 
+- 예약 사항에 따른 금액 계산 기능
+- 예약 및 예약 확인 기능
+- google map API를 이용한 지도 기능
+
+## 구현 기능
+
 - Role : Team Member
 - Position : Front-end
 - Stack : React / Javascript / Sass / Router
 - Works : 
-1) 디자인을 바탕으로 Component 설계CSS를 이용한 디자인 구현
-2) Component 구현과 관련 API 연결
-3) 로그인 - 조건식에 따른 경고 메세지 구현, 로그인 활성화 반영
-4) 회원가입 - 조건식에 따른 경고 메세지 구현, toggle 버튼을 이용한 펼치기/숨기기 기능 구현, 전체동의 checkbox 자동 반영
-5) Booking main - API로 받은 이미지, 텍스트 데이터 반영
-6) 예약페이지 약관동의 - contents data로 분리 및 관리, map methods를 사용하여 data 렌더
-- [프로젝트 후기](https://velog.io/@ichbinmin2/첫번째팀프로젝트)
----
-4. 서수연
- - Role : team member
- - Position : front-end
- - Stack : React
- - Works : Navigation, Footer, Resevervation
-1) CRA를 이용한 초기세팅 진행
-2) Layout 및 sass 구현
-3) component 구현과 관련 API 연결
- - router를 이용한 Link 연결
- - query string을 이용한 가격 정보 산출 구현
- - 추가옵션 선택에 따른 가격 총합 산출 변경 구현
- - 인원 추가에 따른 가격 변경 구현
- - 체크인, 체크아웃 날짜에 따른 일박 나타내기 구현
----
-5. 김지훈
-- Role : team member
-- Position : back-end
-- Stack : Django, Python
-- Works : 
-1) 데이터 모델링을 통한 데이터베이스 구축
-2) API 구현
-- 회원가입 - 정규표현식을 활용한 회원가입 validation 및 bcrypt로 비밀번호 암호화
-- 로그인 - jwt를 사용하여 로그인 후 token 발급
-- 호텔 리스트 페이지 - 모든 호텔에 대한 정보를 리턴하고, 필터링이 걸리면 그에 맞는 조건의 호텔만 리턴
-- 호텔 상세 페이지 - 호텔에 대한 구체적인 정보를 데이터베이스에서 가져오고, 방의 최대 가격과 최소 가격을 계산하여 리턴
-- 예약 페이지 - 프론트엔드에서 준 날짜를 기준으로 그 달의 모든 예약일정과 사용자가 지정한 날짜의 가격 합계를 리턴
-- 예약 확인 페이지 - 예약 후 예약 id를 통해 사용자의 예약 정보를 리턴하여 사용자가 예약을 확인하는 페이지에 띄워줌
-- backend github: https://github.com/wecode-bootcamp-korea/13-stayWefolio-backend
----
-![Image from iOS](https://user-images.githubusercontent.com/66218824/97805950-7a769600-1c9c-11eb-8981-dea62d98af94.jpg)
-❤stayWefolio팀과 함께해서 너무나 행복했습니다❤
+ - 디자인을 바탕으로 Component 설계CSS를 이용한 디자인 구현
+ - Component 구현과 관련 API 연결
+ - 로그인 - 조건식에 따른 경고 메세지 구현, 로그인 활성화 반영
+ - 회원가입 - 조건식에 따른 경고 메세지 구현, toggle 버튼을 이용한 펼치기/숨기기 기능 구현, 전체동의 checkbox 자동 반영
+ - Booking main - API로 받은 이미지, 텍스트 데이터 반영
+ - 예약페이지 약관동의 - contents data로 분리 및 관리, map methods를 사용하여 data 렌더
+
+</br>
+
+## 구현 기능 상세 소개
+
+### 회원 가입 페이지 
+
+![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/d7f3d393-994d-4934-8f80-d3f0c9b43a95/.gif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220325%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220325T100623Z&X-Amz-Expires=86400&X-Amz-Signature=27086947083266ca311d050f521cb2c7748505431475946353d41413f8e04fa3&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22.gif%22&x-id=GetObject)
+
+- 이메일, 이름, 비밀번호, 약관 동의를 통한 회원가입 페이지입니다.
+- 이메일, 이름, 비밀번호는 조건식에 따른 경고 메세지를 구현했습니다.
+- 모든 입력이 완료되고, 약관 동의가 전체 체크 되었을 때 회원 가입 버튼의 커서가 활성화되도록 하였습니다.
+- toggle 버튼을 이용한 펼치기/숨기기 기능을 구현했습니다.
+- `onChange`를 사용하여 해당 인풋 값을 입력하면 `value`가  `name` 값으로 업데이트 되고, 회원가입 버튼을 클릭하면 `body`에 각각의 `state`를 값을 담아 `post` 로 서버에 요청을 합니다.
+- 응답 메세지가 "SUCCESS"일 경우에만 `history.push` 로 메인페이지로 다시 이동할 수 있습니다.
+
+### 로그인 페이지
+
+![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/7ba1d7ec-13a5-4fa4-9868-55ac6258ee19/.gif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220325%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220325T100702Z&X-Amz-Expires=86400&X-Amz-Signature=41a5c20cd083c13f1e1c52f27ce2bc336aec79615e86b952d4a9acaca009c468&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22.gif%22&x-id=GetObject)
+
+- 이메일, 비밀번호를 통한 로그인 페이지입니다.
+- 이메일, 비밀번호는 조건식에 따른 경고 메세지를 구현했습니다.
+- 모든 입력이 완료되었을 때 로그인 버튼의 커서가 활성화되도록 하였습니다.
+- `onChange`를 사용하여 해당 인풋 값을 입력하면 `value`가  `name` 값으로 업데이트 되고, 로그인 버튼을 클릭하면 `body`에 각각의 `state`를 값을 담아 `post` 로 서버에 요청을 합니다.
+- 결과값의 `TOKEN`을 로컬 스토리지에 `token`의 값으로 저장하고, 다시  `history.push` 로 메인페이지로 다시 이동할 수 있게 하였습니다.
+
+### 부킹 페이지 
+
+![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/172fc60a-2e88-4769-b663-36a61383c644/.gif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220325%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220325T100727Z&X-Amz-Expires=86400&X-Amz-Signature=84a0b82d5e879865071f1a1cebe59917941c45d2fbcb4dc2c86a2d3b65eecf02&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22.gif%22&x-id=GetObject)
+
+- 부킹 페이지의 이미지를 클릭하면 해당 정보의 상세 페이지를 확인할 수 있습니다.
+- 부킹 페이지는 자동으로 부킹 페이지의 데이터를 요청하고 `map`을 통해 렌더됩니다. 동시에 `id` 값에 전체 데이터 안의 호텔 `id`를 지정하고 업데이트 하여 저장합니다.
+- 해당 호텔 리스트 중에 특정 배너를 클릭하면 쿼리스트링을 사용한 `id`가 들어있는 `history.push` 로 동일한 `id`를 가진 호텔의 디테일 페이지로 이동합니다.
+
+### 예약 페이지 : 약관 동의
+
+![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/d1fcd0c6-9d75-41ac-96f8-6cd6013d76cc/.gif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220325%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220325T100752Z&X-Amz-Expires=86400&X-Amz-Signature=8fcac8681cdbccde5de2f1c80147f4c59712e8b42e45307dfe7f7b7e41577029&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22.gif%22&x-id=GetObject)
+
+- 예약 페이지의 약관동의 컴포넌트를 구현했습니다.
+- toggle 버튼의 클릭 이벤트로 `state`를 업데이트하여 펼치기/숨기기 기능을 구현했습니다.
+- 약관 자세히 보기의 `data`를 객체로 관리하고, `map`으로 데이터를 렌더하였습니다.
+
+</br>
+
+## 프로젝트 후기
+[✍🏻 프로젝트 회고 보러가기!](https://velog.io/@ichbinmin2/첫번째팀프로젝트)
+</br>
+
+## Reference
+이 프로젝트는 스테이폴리오 사이트를 참조하여 학습목적으로 만들었습니다.
+실무수준의 프로젝트이지만 학습용으로 만들었기 때문에 이 코드를 활용하여 이득을 취하거나 무단 배포할 경우 법적으로 문제될 수 있습니다.
+이 프로젝트에서 사용하고 있는 사진 대부분은 위코드에서 구매한 것이므로 해당 프로젝트 외부인이 사용할 수 없습니다.
+</br>
