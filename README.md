@@ -7,7 +7,7 @@
 ## 프로젝트 참가자(Front + Back)
 
 ### FrontEnd
-+ 신은선(Product Manager) / 민지연 / 김보라 / 서수연
++ 신은선(Product Manager) / **민지연** / 김보라 / 서수연
 
 ### BackEnd
 + 김지훈
@@ -92,7 +92,7 @@
 
 ### 회원 가입 페이지 
 
-![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/d7f3d393-994d-4934-8f80-d3f0c9b43a95/.gif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220325%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220325T100623Z&X-Amz-Expires=86400&X-Amz-Signature=27086947083266ca311d050f521cb2c7748505431475946353d41413f8e04fa3&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22.gif%22&x-id=GetObject)
+![1](https://user-images.githubusercontent.com/53133662/160774374-cb808453-23c7-4827-bfa8-25d53e924dfa.gif)
 
 - 이메일, 이름, 비밀번호, 약관 동의를 통한 회원가입 페이지입니다.
 - 이메일, 이름, 비밀번호는 조건식에 따른 경고 메세지를 구현했습니다.
@@ -103,7 +103,7 @@
 
 ### 로그인 페이지
 
-![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/7ba1d7ec-13a5-4fa4-9868-55ac6258ee19/.gif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220325%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220325T100702Z&X-Amz-Expires=86400&X-Amz-Signature=41a5c20cd083c13f1e1c52f27ce2bc336aec79615e86b952d4a9acaca009c468&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22.gif%22&x-id=GetObject)
+![2](https://user-images.githubusercontent.com/53133662/160774184-413585d9-74d8-42ba-a60f-db9be968d5c5.gif)
 
 - 이메일, 비밀번호를 통한 로그인 페이지입니다.
 - 이메일, 비밀번호는 조건식에 따른 경고 메세지를 구현했습니다.
@@ -113,7 +113,7 @@
 
 ### 부킹 페이지 
 
-![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/172fc60a-2e88-4769-b663-36a61383c644/.gif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220325%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220325T100727Z&X-Amz-Expires=86400&X-Amz-Signature=84a0b82d5e879865071f1a1cebe59917941c45d2fbcb4dc2c86a2d3b65eecf02&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22.gif%22&x-id=GetObject)
+<img width="100%" src="https://user-images.githubusercontent.com/53133662/160774194-a69cbbe4-b0b8-4b60-a522-323f95d33199.gif" />
 
 - 부킹 페이지의 이미지를 클릭하면 해당 정보의 상세 페이지를 확인할 수 있습니다.
 - 부킹 페이지는 자동으로 부킹 페이지의 데이터를 요청하고 `map`을 통해 렌더됩니다. 동시에 `id` 값에 전체 데이터 안의 호텔 `id`를 지정하고 업데이트 하여 저장합니다.
@@ -121,7 +121,7 @@
 
 ### 예약 페이지 : 약관 동의
 
-![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/d1fcd0c6-9d75-41ac-96f8-6cd6013d76cc/.gif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220325%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220325T100752Z&X-Amz-Expires=86400&X-Amz-Signature=8fcac8681cdbccde5de2f1c80147f4c59712e8b42e45307dfe7f7b7e41577029&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22.gif%22&x-id=GetObject)
+![4](https://user-images.githubusercontent.com/53133662/160774215-397434eb-9fe8-4a4d-bd60-a7b4820ace93.gif)
 
 - 예약 페이지의 약관동의 컴포넌트를 구현했습니다.
 - toggle 버튼의 클릭 이벤트로 `state`를 업데이트하여 펼치기/숨기기 기능을 구현했습니다.
